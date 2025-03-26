@@ -4,7 +4,6 @@
 This is a Task Management API built using **Django** and **Django Rest Framework (DRF)**. It allows users to create tasks, assign tasks to specific users, and retrieve tasks assigned to a particular user.
 
 ## Features
-- User registration and authentication
 - Create tasks
 - Assign tasks to users
 - Retrieve tasks assigned to a user
