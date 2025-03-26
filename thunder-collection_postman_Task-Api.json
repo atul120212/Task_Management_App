@@ -1,0 +1,143 @@
+{
+    "info": {
+        "_postman_id": "434be2c7-5d37-4998-b087-58efd9c79e7f",
+        "name": "Task-Api",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "Assigned_Task",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://127.0.0.1:8000/api/user/3/tasks",
+                    "path": [
+                        "api",
+                        "user",
+                        "3",
+                        "tasks"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                },
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "*/*",
+                        "disabled": true
+                    },
+                    {
+                        "key": "User-Agent",
+                        "value": "Thunder Client (https://www.thunderclient.com)",
+                        "disabled": true
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyOTY2NjY0LCJpYXQiOjE3NDI5NjYzNjQsImp0aSI6IjY3Nzg0YWQ5NjkwNjQ2OTM5NWI5NjVkNWExMGNlMDZhIiwidXNlcl9pZCI6MX0.2odvXsi9iUELpHRnteU7IghpFXo25CdGzwmuqRHRhDE"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Assign_Task_to_others",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://127.0.0.1:8000/api/tasks/4/assign/",
+                    "path": [
+                        "api",
+                        "tasks",
+                        "4",
+                        "assign"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                },
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "*/*",
+                        "disabled": true
+                    },
+                    {
+                        "key": "User-Agent",
+                        "value": "Thunder Client (https://www.thunderclient.com)",
+                        "disabled": true
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyOTY2NjY0LCJpYXQiOjE3NDI5NjYzNjQsImp0aSI6IjY3Nzg0YWQ5NjkwNjQ2OTM5NWI5NjVkNWExMGNlMDZhIiwidXNlcl9pZCI6MX0.2odvXsi9iUELpHRnteU7IghpFXo25CdGzwmuqRHRhDE"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\r\n    \"emails\": [\"john.doe@example.com\", \"johny.doe@example.com\"]\r\n}\r\n"
+                }
+            }
+        },
+        {
+            "name": "Create_Task",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://127.0.0.1:8000/api/tasks/",
+                    "path": [
+                        "api",
+                        "tasks"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                },
+                "header": [
+                    {
+                        "key": "Accept",
+                        "value": "*/*",
+                        "disabled": true
+                    },
+                    {
+                        "key": "User-Agent",
+                        "value": "Thunder Client (https://www.thunderclient.com)",
+                        "disabled": true
+                    },
+                    {
+                        "key": "Authorization",
+                        "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzQyOTY3MjkwLCJpYXQiOjE3NDI5NjY5OTAsImp0aSI6ImQ4MzY1YmEyNjdjYTRjNTBhOGRmMGE5YmJmNjYyZDA4IiwidXNlcl9pZCI6MX0.qFr9Wuyn1ab3zE2loejGfntbzyxgYGJZkgHIDVx9GDE"
+                    }
+                ],
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n    \"name\": \"Complete UIiiii Developmenttttttt\",\n    \"description\": \"Implementttt all required UIiiiiii.\",\n    \"task_type\": \"work\",\n    \"status\": \"pending\"\n}"
+                }
+            }
+        }
+    ]
+}
