@@ -34,11 +34,14 @@ $ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 $ pip install -r requirements.txt
 ```
 
-### 4. Apply Migrations
+### 4. Apply Migrations and Load Initial Users Data
+
+Run the following commands to set up the database and load users from a JSON file:
+
 ```bash
 $ python manage.py makemigrations
 $ python manage.py migrate
-```
+
 
 ### 5. Create a Superuser (Admin User)
 ```bash
