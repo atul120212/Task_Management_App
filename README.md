@@ -19,8 +19,8 @@ This is a Task Management API built using **Django** and **Django Rest Framework
 
 ### 1. Clone the Repository
 ```bash
-$ git clone <repository_url>
-$ cd task_management_api
+$ git clone https://github.com/atul120212/Task_Management_App.git
+$ cd Task_Management_App
 ```
 
 ### 2. Create a Virtual Environment
