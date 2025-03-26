@@ -191,4 +191,3 @@ $ python manage.py test
 ## Author
 **Atul Sharma**
 
----
