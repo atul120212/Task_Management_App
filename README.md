@@ -57,32 +57,7 @@ Now, the API will be available at `http://127.0.0.1:8000/`
 
 ## API Endpoints
 
-### 1. Register a New User
-**Endpoint:** `POST /api/register/`
-```json
-{
-    "username": "atul",
-    "name": "Atul Sharma",
-    "email": "atul@example.com",
-    "mobile": "9876543210",
-    "password": "securepassword"
-}
-```
-
-**Response:**
-```json
-{
-    "id": 1,
-    "username": "atul",
-    "name": "Atul Sharma",
-    "email": "atul@example.com",
-    "mobile": "9876543210"
-}
-```
-
----
-
-### 2. Create a Task
+### 1. Create a Task
 **Endpoint:** `POST /api/tasks/`
 ```json
 {
@@ -109,7 +84,7 @@ Now, the API will be available at `http://127.0.0.1:8000/`
 
 ---
 
-### 3. Assign Task to Users
+### 2. Assign Task to Users
 **Endpoint:** `POST /api/tasks/<task_id>/assign/`
 ```json
 {
@@ -144,7 +119,7 @@ Now, the API will be available at `http://127.0.0.1:8000/`
 
 ---
 
-### 4. Get Tasks Assigned to a User
+### 3. Get Tasks Assigned to a User
 **Endpoint:** `GET /api/user/<user_id>/tasks/`
 
 **Response:**
