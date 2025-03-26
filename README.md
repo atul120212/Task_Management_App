@@ -19,8 +19,8 @@ This is a Task Management API built using **Django** and **Django Rest Framework
 
 ### 1. Clone the Repository
 ```bash
-$ git clone https://github.com/atul120212/Task_Management_App.git
-$ cd Task_Management_App
+git clone https://github.com/atul120212/Task_Management_App.git
+cd Task_Management_App
 ```
 
 ### 2. Create a Virtual Environment
@@ -29,27 +29,32 @@ $ python -m venv venv
 $ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
-### 3. Install Dependencies
+### 3. Goto the main folder
+```bash
+cd task_manager
+```
+
+### 4. Install Dependencies
 ```bash
 $ pip install -r requirements.txt
 ```
 
-### 4. Apply Migrations and Load Initial Users Data
+### 5. Apply Migrations and Load Initial Users Data
 
 Run the following commands to set up the database and load users from a JSON file:
 
 ```bash
 $ python manage.py makemigrations
 $ python manage.py migrate
+```
 
-
-### 5. Create a Superuser (Admin User)
+### 6. Create a Superuser (Admin User)
 ```bash
 $ python manage.py createsuperuser
 ```
 Follow the prompts to enter a username, email, and password.
 
-### 6. Run the Development Server
+### 7. Run the Development Server
 ```bash
 $ python manage.py runserver
 ```
