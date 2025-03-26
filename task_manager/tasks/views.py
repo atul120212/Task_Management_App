@@ -9,7 +9,7 @@ from rest_framework import generics
 
 
 class UserTasksView(APIView):
-    def get(self, request, user_id):
+    def get(self, user_id):
         tasks = Task.objects.filter(assigned_users__id=user_id)  # Filter tasks for the specific user
         serializer = TaskWithoutAssignedUsersSerializer(tasks, many=True)
         return Response(serializer.data)

@@ -1,0 +1,58 @@
+[
+    {
+        "username": "jane_smith",
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "mobile": "9876543212",
+        "password": "JaneSmith@789"
+    },
+    {
+        "username": "michael_scott",
+        "name": "Michael Scott",
+        "email": "michael.scott@example.com",
+        "mobile": "9876543213",
+        "password": "Michael@Dunder"
+    },
+    {
+        "username": "dwight_schrute",
+        "name": "Dwight Schrute",
+        "email": "dwight.schrute@example.com",
+        "mobile": "9876543214",
+        "password": "Beets@Farm"
+    },
+    {
+        "username": "jim_halpert",
+        "name": "Jim Halpert",
+        "email": "jim.halpert@example.com",
+        "mobile": "9876543215",
+        "password": "Prank@Pam"
+    },
+    {
+        "username": "pam_beesly",
+        "name": "Pam Beesly",
+        "email": "pam.beesly@example.com",
+        "mobile": "9876543216",
+        "password": "Artist@Dunder"
+    },
+    {
+        "username": "kevin_malone",
+        "name": "Kevin Malone",
+        "email": "kevin.malone@example.com",
+        "mobile": "9876543217",
+        "password": "Chili@Recipe"
+    },
+    {
+        "username": "stanley_hudson",
+        "name": "Stanley Hudson",
+        "email": "stanley.hudson@example.com",
+        "mobile": "9876543218",
+        "password": "Crossword@Boss"
+    },
+    {
+        "username": "angela_martin",
+        "name": "Angela Martin",
+        "email": "angela.martin@example.com",
+        "mobile": "9876543219",
+        "password": "Cats@Sprinkles"
+    }
+]
