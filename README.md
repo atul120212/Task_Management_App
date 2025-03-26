@@ -25,8 +25,8 @@ cd Task_Management_App
 
 ### 2. Create a Virtual Environment
 ```bash
-$ python -m venv venv
-$ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
 ### 3. Goto the main folder
@@ -36,7 +36,7 @@ cd task_manager
 
 ### 4. Install Dependencies
 ```bash
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 5. Apply Migrations and Load Initial Users Data
@@ -44,19 +44,19 @@ $ pip install -r requirements.txt
 Run the following commands to set up the database and load users from a JSON file:
 
 ```bash
-$ python manage.py makemigrations
-$ python manage.py migrate
+python manage.py makemigrations
+python manage.py migrate
 ```
 
 ### 6. Create a Superuser (Admin User)
 ```bash
-$ python manage.py createsuperuser
+python manage.py createsuperuser
 ```
 Follow the prompts to enter a username, email, and password.
 
 ### 7. Run the Development Server
 ```bash
-$ python manage.py runserver
+python manage.py runserver
 ```
 
 Now, the API will be available at `http://127.0.0.1:8000/`
@@ -159,7 +159,7 @@ Now, the API will be available at `http://127.0.0.1:8000/`
 ## Running Tests
 Run the following command to execute tests:
 ```bash
-$ python manage.py test
+python manage.py test
 ```
 
 ---
