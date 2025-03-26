@@ -29,14 +29,14 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
-### 3. Goto the main folder
-```bash
-cd task_manager
-```
-
-### 4. Install Dependencies
+### .3 Install Dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### 4. Goto the main folder
+```bash
+cd task_manager
 ```
 
 ### 5. Apply Migrations and Load Initial Users Data
