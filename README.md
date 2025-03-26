@@ -192,6 +192,3 @@ $ python manage.py test
 **Atul Sharma**
 
 ---
-
-## License
-This project is licensed under the MIT License.
